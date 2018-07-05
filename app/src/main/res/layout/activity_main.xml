@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#671869"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Radio Button Demo"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:text="Lenovo"
+            android:onClick="radioButton1"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:text="Hp"
+            android:onClick="radioButton1"
+            android:background="#cac6c6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:text="Asus"
+            android:onClick="radioButton1"
+            android:background="#8c8c8c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:text="Click"
+            android:textColor="#020000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#13f7f3"
+            android:onClick="goToOtherActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+</LinearLayout>
