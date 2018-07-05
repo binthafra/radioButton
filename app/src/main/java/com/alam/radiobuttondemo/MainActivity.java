@@ -20,7 +20,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(k);
     }
     public void radioButton1(View view) {
-
-        boolean checked (radioButton).view.;
     }
 }
